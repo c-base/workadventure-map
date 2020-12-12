@@ -2,15 +2,8 @@
     "automappingRulesFile": "",
     "commands": [
     ],
-    "extensionsPath": ".",
+    "extensionsPath": "extensions",
     "folders": [
-        "c_eminarraum",
-        "c_oundlab",
-        "c-lab",
-        "mainhall",
-        "nerdarea",
-        "wercctatt",
-        "arboretum"
     ],
     "objectTypesFile": ""
 }
