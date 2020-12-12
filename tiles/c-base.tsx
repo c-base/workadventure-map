@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.3" name="Curves" tilewidth="32" tileheight="32" tilecount="2000" columns="80">
+<tileset version="1.4" tiledversion="1.4.3" name="c-base" tilewidth="32" tileheight="32" tilecount="2000" columns="80">
  <image source="../c-base-tiles.png" width="2560" height="800"/>
  <tile id="79">
   <properties>
