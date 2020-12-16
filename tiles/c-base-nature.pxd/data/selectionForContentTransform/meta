@@ -10,19 +10,19 @@
 	<string>shapeSelection</string>
 	<key>size</key>
 	<data>
-	NC10UHpTVFAQAAAAQHAAAAAAAABAaAAAAAAAAA==
+	NC10UHpTVFAQAAAAQAAAAAAAAABAHAAAAAAAAA==
 	</data>
 	<key>softness</key>
 	<real>0.0</real>
 	<key>timestamp</key>
-	<real>629818960.669716</real>
+	<real>629851925.97064602</real>
 	<key>transform</key>
 	<array>
-		<real>1</real>
+		<real>1.5</real>
 		<real>0.0</real>
 		<real>0.0</real>
 		<real>1</real>
-		<real>0.0</real>
+		<real>-127</real>
 		<real>0.0</real>
 		<real>0.0</real>
 		<real>0.0</real>

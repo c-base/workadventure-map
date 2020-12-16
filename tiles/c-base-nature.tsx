@@ -23,7 +23,7 @@
  </tile>
  <tile id="34">
   <properties>
-   <property name="collides" type="bool" value="true"/>
+   <property name="collides" type="bool" value="false"/>
   </properties>
  </tile>
  <tile id="35">
@@ -37,6 +37,16 @@
   </properties>
  </tile>
  <tile id="37">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="38">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="39">
   <properties>
    <property name="collides" type="bool" value="true"/>
   </properties>
