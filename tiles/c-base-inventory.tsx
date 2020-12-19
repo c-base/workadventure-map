@@ -411,4 +411,19 @@
    <property name="collides" type="bool" value="true"/>
   </properties>
  </tile>
+ <tile id="249">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="250">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="251">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
 </tileset>
