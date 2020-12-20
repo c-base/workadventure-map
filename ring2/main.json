@@ -289,7 +289,7 @@
         {
          "columns":40,
          "firstgid":1,
-         "image":"..\/spots.png",
+         "image":"..\/img\/spots.png",
          "imageheight":320,
          "imagewidth":1280,
          "margin":0,
@@ -302,7 +302,7 @@
         {
          "columns":16,
          "firstgid":401,
-         "image":"..\/c-base-walls.png",
+         "image":"..\/img\/c-base-walls.png",
          "imageheight":1024,
          "imagewidth":512,
          "margin":0,
@@ -514,7 +514,7 @@
         {
          "columns":16,
          "firstgid":913,
-         "image":"..\/c-base-inventory.png",
+         "image":"..\/img\/c-base-inventory.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -830,6 +830,42 @@
                         }]
                 }, 
                 {
+                 "id":53,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":54,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":55,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":56,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
                  "id":58,
                  "properties":[
                         {
@@ -840,6 +876,51 @@
                 }, 
                 {
                  "id":59,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":64,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":65,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":66,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":67,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":68,
                  "properties":[
                         {
                          "name":"collides",
@@ -1179,13 +1260,40 @@
                          "type":"bool",
                          "value":true
                         }]
+                }, 
+                {
+                 "id":249,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":250,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":251,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }],
          "tilewidth":32
         }, 
         {
          "columns":16,
          "firstgid":1169,
-         "image":"..\/c-base-texts.png",
+         "image":"..\/img\/c-base-texts.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
