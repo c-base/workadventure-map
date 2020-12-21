@@ -414,7 +414,7 @@
  </layer>
  <layer id="16" name="Web 360" width="42" height="96">
   <properties>
-   <property name="openWebsite" value="https://www.metavrse.de/c-base/"/>
+   <property name="openWebsite" value="https://c-base.org/360/"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -517,7 +517,7 @@
  </layer>
  <layer id="14" name="Web Scanner" width="42" height="96">
   <properties>
-   <property name="openWebsite" value="https://c-base.org/"/>
+   <property name="openWebsite" value="https://c-base.org/rc3/scanner/"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
