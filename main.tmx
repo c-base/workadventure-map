@@ -535,7 +535,7 @@
  </layer>
  <layer id="14" name="Web Scanner" width="42" height="96">
   <properties>
-   <property name="openWebsite" value="https://c-base.org/rc3/scanner/"/>
+   <property name="openWebsite" value="https://rc3.c-base.org/scanner/"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

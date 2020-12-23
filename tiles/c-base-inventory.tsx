@@ -306,6 +306,21 @@
    <property name="collides" type="bool" value="true"/>
   </properties>
  </tile>
+ <tile id="130">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="131">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="132">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
  <tile id="144">
   <properties>
    <property name="collides" type="bool" value="true"/>

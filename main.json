@@ -98,7 +98,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/c-base.org\/rc3\/scanner\/"
+                 "value":"https:\/\/rc3.c-base.org\/scanner\/"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -1070,6 +1070,33 @@
                 }, 
                 {
                  "id":129,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":130,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":131,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":132,
                  "properties":[
                         {
                          "name":"collides",
