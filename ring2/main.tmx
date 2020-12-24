@@ -251,7 +251,7 @@
  </layer>
  <layer id="20" name="Web 360" width="64" height="42">
   <properties>
-   <property name="openWebsite" value="https://c-base.org/360/"/>
+   <property name="openWebsite" value="https://rc3.c-base.org/360/"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

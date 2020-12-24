@@ -104,7 +104,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/c-base.org\/360\/"
+                 "value":"https:\/\/rc3.c-base.org\/360\/"
                 }],
          "type":"tilelayer",
          "visible":true,
