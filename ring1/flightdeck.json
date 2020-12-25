@@ -2043,6 +2043,15 @@
                         }]
                 }, 
                 {
+                 "id":417,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
                  "id":418,
                  "properties":[
                         {
