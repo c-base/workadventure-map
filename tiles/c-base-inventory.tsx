@@ -346,6 +346,32 @@
    <property name="collides" type="bool" value="true"/>
   </properties>
  </tile>
+ <tile id="169">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+  <animation>
+   <frame tileid="169" duration="100"/>
+   <frame tileid="185" duration="500"/>
+   <frame tileid="169" duration="200"/>
+   <frame tileid="185" duration="700"/>
+   <frame tileid="169" duration="200"/>
+   <frame tileid="185" duration="500"/>
+  </animation>
+ </tile>
+ <tile id="170">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+  <animation>
+   <frame tileid="170" duration="200"/>
+   <frame tileid="186" duration="500"/>
+   <frame tileid="170" duration="100"/>
+   <frame tileid="186" duration="200"/>
+   <frame tileid="170" duration="100"/>
+   <frame tileid="186" duration="400"/>
+  </animation>
+ </tile>
  <tile id="177">
   <properties>
    <property name="collides" type="bool" value="true"/>
@@ -357,6 +383,16 @@
   </properties>
  </tile>
  <tile id="184">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="185">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="186">
   <properties>
    <property name="collides" type="bool" value="true"/>
   </properties>
