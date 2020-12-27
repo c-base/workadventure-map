@@ -2276,7 +2276,7 @@
  </layer>
  <layer id="24" name="exitWorld" width="42" height="96">
   <properties>
-   <property name="exitUrl" value="{&lt;lobby&gt;/_/global/lobby.maps.at.rc3.world/maps/erfas-spaces-north.json#start_c-base}"/>
+   <property name="exitUrl" value="{&lt;lobby&gt;/maps/erfas-spaces-north.json#start_c-base}"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
