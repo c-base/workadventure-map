@@ -260,7 +260,7 @@
  </layer>
  <layer id="30" name="exitCSpace" width="64" height="42">
   <properties>
-   <property name="exitUrl" value="../cspace/main.json#start"/>
+   <property name="exitUrl" value="{&lt;cspace&gt;/main.json#start}"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
