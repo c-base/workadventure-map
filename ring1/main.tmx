@@ -211,7 +211,7 @@
  </layer>
  <layer id="28" name="exitRing2" width="64" height="42">
   <properties>
-   <property name="exitUrl" value="../ring2/main.json#entryRing2"/>
+   <property name="exitUrl" value="../ring2/main.json#entryRing1"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
