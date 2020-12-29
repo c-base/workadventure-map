@@ -448,7 +448,7 @@
  </layer>
  <layer id="26" name="Web Schatzkarte" width="64" height="42">
   <properties>
-   <property name="openWebsite" value="https://rc3.c-base-org/schatzkarte"/>
+   <property name="openWebsite" value="https://rc3.c-base.org/schatzkarte"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
