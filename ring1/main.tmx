@@ -846,7 +846,7 @@
  </layer>
  <layer id="39" name="Web Pentagame" width="64" height="42">
   <properties>
-   <property name="openWebsite" value="https://nikky.crew.c-base.org/pentagame/"/>
+   <property name="openWebsite" value="https://rc3.c-base.org/pentagame/"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
