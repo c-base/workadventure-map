@@ -536,6 +536,7 @@
  <layer id="8" name="Badge" width="100" height="100">
   <properties>
    <property name="getBadge" value="hZn0bvEZE6odnhbFyYlrjlCljhjsEewFAX5DCc1icc2khgsMOQ"/>
+   <property name="openWebsite" value="https://rc3.c-base.org/schatzkarte/x-marks-the-spot/"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
