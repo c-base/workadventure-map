@@ -336,6 +336,12 @@
    <property name="collides" type="bool" value="true"/>
   </properties>
  </tile>
+ <tile id="153">
+  <animation>
+   <frame tileid="153" duration="2500"/>
+   <frame tileid="137" duration="1500"/>
+  </animation>
+ </tile>
  <tile id="160">
   <properties>
    <property name="collides" type="bool" value="true"/>
