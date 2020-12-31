@@ -28,6 +28,7 @@
  <tileset firstgid="1543" source="Tiles/c-base-texts.tsx"/>
  <layer id="13" name="mars_shake" width="42" height="96">
   <properties>
+   <property name="getBadge" value="CA4zKyH7N5eQaxfbP7qmh7ML5Y8h0CNTs6CBxIQYI0Y4waqTl0"/>
    <property name="playAudioLoop" value="sounds/Mars_shake.mp3"/>
   </properties>
   <data encoding="csv">
