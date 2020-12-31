@@ -79,6 +79,7 @@
  </layer>
  <layer id="1" name="floor" width="37" height="26">
   <properties>
+   <property name="getBadge" value="EQJAZcmrxGUeJ6bJFseK4Wazh27tpmCaOtARfqnATmOXlaavw9"/>
    <property name="playAudioLoop" value="../sounds/reactor_working.mp3"/>
   </properties>
   <data encoding="csv">
