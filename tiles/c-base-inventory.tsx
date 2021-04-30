@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.5" tiledversion="1.5.0" name="c-base-inventory" tilewidth="32" tileheight="32" tilecount="256" columns="16">
- <image source="../img/c-base-inventory.png" width="512" height="512"/>
+<tileset version="1.5" tiledversion="1.5.0" name="c-base-inventory" tilewidth="32" tileheight="32" tilecount="384" columns="16">
+ <image source="../img/c-base-inventory.png" width="512" height="768"/>
  <tile id="0">
   <properties>
    <property name="collides" type="bool" value="false"/>
@@ -595,6 +595,26 @@
   </properties>
  </tile>
  <tile id="251">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="272">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="273">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="274">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="275">
   <properties>
    <property name="collides" type="bool" value="true"/>
   </properties>
