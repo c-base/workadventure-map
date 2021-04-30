@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.3" name="c-base-nature" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+<tileset version="1.5" tiledversion="1.5.0" name="c-base-nature" tilewidth="32" tileheight="32" tilecount="256" columns="16">
  <image source="../img/c-base-nature.png" width="512" height="512"/>
  <tile id="10">
   <properties>
@@ -148,7 +148,7 @@
  </tile>
  <tile id="62">
   <properties>
-   <property name="collides" type="bool" value="true"/>
+   <property name="collides" type="bool" value="false"/>
   </properties>
  </tile>
  <tile id="63">
@@ -262,6 +262,36 @@
   </properties>
  </tile>
  <tile id="167">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="168">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="169">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="170">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="171">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="172">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="173">
   <properties>
    <property name="collides" type="bool" value="true"/>
   </properties>
