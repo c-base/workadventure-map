@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.3" name="tile_tst_34frames_2048bei256" tilewidth="32" tileheight="32" tilecount="2560" columns="64">
+<tileset version="1.5" tiledversion="1.7.2" name="discofloor" tilewidth="32" tileheight="32" tilecount="2560" columns="64">
+ <properties>
+  <property name="tilesetCopyright">Tileset  'discofloor' made by TrippingKronos for first rc3 c-space
+</property>
+ </properties>
  <image source="../img/tile_tst_34_frames_2048bei256.png" width="2048" height="1280"/>
  <tile id="0">
   <animation>

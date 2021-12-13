@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.3" name="control1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
+<tileset version="1.5" tiledversion="1.7.2" name="control1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
+ <properties>
+  <property name="tilesetCopyright" value="Tileset 'control1' made by StarPeak"/>
+ </properties>
  <image source="../img/control1.png" width="512" height="320"/>
  <tile id="0">
   <animation>
