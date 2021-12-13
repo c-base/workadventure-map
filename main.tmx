@@ -7,7 +7,7 @@
   <property name="mapCopyright" value="Map created by StarPeak"/>
   <property name="mapDescription" value="This is the main passage between the rings of the c-base. It also acts as landing platform for incoming visitors."/>
   <property name="mapName" value="c-base main passage"/>
-  <property name="script" value="https://unpkg.com/@workadventure/scripting-api-extra@^1/dist/bundle.js"/>
+  <property name="script" value="script.js"/>
  </properties>
  <tileset firstgid="1" source="Tiles/walls.tsx"/>
  <tileset firstgid="1025" source="Tiles/inventory.tsx"/>

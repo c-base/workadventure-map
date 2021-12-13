@@ -7,7 +7,7 @@
   <property name="mapCopyright" value="Map created by StarPeak"/>
   <property name="mapDescription" value="Center ring of the c-base space station.  It provides access to the main stage and has some rooms, where friends and members of the space station present themselfes."/>
   <property name="mapName" value="c-base Ring 2"/>
-  <property name="script" value="https://unpkg.com/@workadventure/scripting-api-extra@^1/dist/bundle.js"/>
+  <property name="script" value="script.js"/>
  </properties>
  <tileset firstgid="1" source="Tiles/walls.tsx"/>
  <tileset firstgid="1025" source="Tiles/labels.tsx"/>
@@ -1077,9 +1077,9 @@
    </properties>
    <point/>
   </object>
-  <object id="8" name="mainstageVideo" type="website" x="929.97" y="217.81" width="252.014" height="133.824">
+  <object id="8" name="mainstageVideo" type="website" x="929.789" y="214.625" width="252.014" height="142.068">
    <properties>
-    <property name="url" value="https://www.youtube.com/embed/NDC7tZv9E6M"/>
+    <property name="url" value="https://streaming.test.c3voc.de/rc3/embed/test/dash/native"/>
    </properties>
   </object>
  </objectgroup>

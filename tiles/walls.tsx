@@ -132,6 +132,21 @@
    <property name="collides" type="bool" value="true"/>
   </properties>
  </tile>
+ <tile id="602">
+  <properties>
+   <property name="name" value="darkCircle0"/>
+  </properties>
+ </tile>
+ <tile id="603">
+  <properties>
+   <property name="name" value="darkCircle1"/>
+  </properties>
+ </tile>
+ <tile id="604">
+  <properties>
+   <property name="name" value="darkCircle2"/>
+  </properties>
+ </tile>
  <tile id="608">
   <properties>
    <property name="collides" type="bool" value="true"/>
@@ -165,6 +180,26 @@
  <tile id="629">
   <properties>
    <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="630">
+  <properties>
+   <property name="name" value="darkOverlay"/>
+  </properties>
+ </tile>
+ <tile id="634">
+  <properties>
+   <property name="name" value="darkCircle3"/>
+  </properties>
+ </tile>
+ <tile id="635">
+  <properties>
+   <property name="name" value="darkCircle4"/>
+  </properties>
+ </tile>
+ <tile id="636">
+  <properties>
+   <property name="name" value="darkCircle5"/>
   </properties>
  </tile>
  <tile id="640">
@@ -204,6 +239,21 @@
    <frame tileid="662" duration="150"/>
    <frame tileid="663" duration="150"/>
   </animation>
+ </tile>
+ <tile id="666">
+  <properties>
+   <property name="name" value="darkCircle6"/>
+  </properties>
+ </tile>
+ <tile id="667">
+  <properties>
+   <property name="name" value="darkCircle7"/>
+  </properties>
+ </tile>
+ <tile id="668">
+  <properties>
+   <property name="name" value="darkCircle8"/>
+  </properties>
  </tile>
  <tile id="821">
   <properties>

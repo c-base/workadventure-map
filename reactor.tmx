@@ -11,7 +11,7 @@ startup_reactor.mp3
   http://www.soundsofchanges.eu/sound/generator-noise-nuclear-power-plant</property>
   <property name="mapDescription" value="The reactor of the c-base. It is considered to be a safe way to provode energy for the space station, but as it is very old, no one really understands the functionality of it anymore."/>
   <property name="mapName" value="c-base Reactor Room"/>
-  <property name="script" value="https://unpkg.com/@workadventure/scripting-api-extra@^1/dist/bundle.js"/>
+  <property name="script" value="script.js"/>
  </properties>
  <tileset firstgid="1" source="Tiles/nature.tsx"/>
  <tileset firstgid="257" source="Tiles/inventory.tsx"/>

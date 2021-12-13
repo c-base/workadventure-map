@@ -7,6 +7,7 @@
   <property name="mapCopyright" value="Map created by StarPeak"/>
   <property name="mapDescription" value="The flightdeck of the c-base"/>
   <property name="mapName" value="Flightdeck"/>
+  <property name="script" value="script.js"/>
  </properties>
  <tileset firstgid="1" source="Tiles/walls.tsx"/>
  <tileset firstgid="1025" source="Tiles/inventory.tsx"/>

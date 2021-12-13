@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="3">
  <editorsettings>
   <export target="darkroom.json" format="json"/>
  </editorsettings>
@@ -7,7 +7,7 @@
   <property name="mapCopyright" value="Map created by StarPeak"/>
   <property name="mapDescription" value="It's dark ... so dark..."/>
   <property name="mapName" value="Darkroom"/>
-  <property name="script" value="https://unpkg.com/@workadventure/scripting-api-extra@^1/dist/bundle.js"/>
+  <property name="script" value="script.js"/>
  </properties>
  <tileset firstgid="1" source="Tiles/walls.tsx"/>
  <layer id="5" name="start" width="100" height="100">
@@ -224,6 +224,12 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="9" name="Badge">
+  <properties>
+   <property name="getBadge" value="J0KoPCelyhMXaBB6qXmmRQfED5nULBXQzJ1QESgeDEGRyiBgVF"/>
+  </properties>
+  <object id="2" x="416.07" y="416.929" width="95.3554" height="95.3554"/>
+ </objectgroup>
  <layer id="6" name="exit" width="100" height="100">
   <properties>
    <property name="exitUrl" value="cave.json#darkroomEntry"/>
@@ -648,7 +654,10 @@
 </data>
  </layer>
  <objectgroup id="2" name="floorLayer"/>
- <layer id="3" name="Tile Layer 2" width="100" height="100">
+ <layer id="3" name="darkness" width="100" height="100" visible="0">
+  <properties>
+   <property name="zone" value="darkness"/>
+  </properties>
   <data encoding="csv">
 631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,
 631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,631,

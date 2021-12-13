@@ -7,7 +7,7 @@
   <property name="mapCopyright" value="Map created by StarPeak"/>
   <property name="mapDescription" value="An abondend medical facility, where in the past experiments on all forms of creatures were done. Hopefully we never need to activate it again and can relay on the services of the CERT."/>
   <property name="mapName" value="c-base MedBay"/>
-  <property name="script" value="https://unpkg.com/@workadventure/scripting-api-extra@^1/dist/bundle.js"/>
+  <property name="script" value="script.js"/>
  </properties>
  <tileset firstgid="1" source="Tiles/walls.tsx"/>
  <tileset firstgid="1025" source="Tiles/inventory.tsx"/>

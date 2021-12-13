@@ -7,7 +7,7 @@
   <property name="mapCopyright" value="Map created by StarPeak"/>
   <property name="mapDescription" value="This cave seems to have formed as some waste of the reactor leaked into the ground of the arboretum."/>
   <property name="mapName" value="Uncharted cave"/>
-  <property name="script" value="https://unpkg.com/@workadventure/scripting-api-extra@^1/dist/bundle.js"/>
+  <property name="script" value="script.js"/>
  </properties>
  <tileset firstgid="1" source="Tiles/nature.tsx"/>
  <tileset firstgid="257" source="Tiles/inventory.tsx"/>
