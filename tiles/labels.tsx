@@ -8,4 +8,16 @@
 - other stuff and compilation by StarPeak</property>
  </properties>
  <image source="../img/lables.png" width="512" height="512"/>
+ <tile id="143">
+  <animation>
+   <frame tileid="143" duration="10000"/>
+   <frame tileid="136" duration="50"/>
+   <frame tileid="137" duration="50"/>
+   <frame tileid="138" duration="50"/>
+   <frame tileid="139" duration="50"/>
+   <frame tileid="140" duration="50"/>
+   <frame tileid="141" duration="50"/>
+   <frame tileid="142" duration="50"/>
+  </animation>
+ </tile>
 </tileset>

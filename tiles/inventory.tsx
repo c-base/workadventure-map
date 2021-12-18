@@ -270,8 +270,12 @@
    <property name="collides" type="bool" value="true"/>
   </properties>
   <animation>
-   <frame tileid="169" duration="150"/>
-   <frame tileid="185" duration="350"/>
+   <frame tileid="169" duration="250"/>
+   <frame tileid="185" duration="550"/>
+   <frame tileid="169" duration="210"/>
+   <frame tileid="185" duration="580"/>
+   <frame tileid="169" duration="270"/>
+   <frame tileid="185" duration="700"/>
   </animation>
  </tile>
  <tile id="170">
@@ -279,8 +283,10 @@
    <property name="collides" type="bool" value="true"/>
   </properties>
   <animation>
-   <frame tileid="186" duration="375"/>
-   <frame tileid="170" duration="125"/>
+   <frame tileid="186" duration="675"/>
+   <frame tileid="170" duration="220"/>
+   <frame tileid="186" duration="500"/>
+   <frame tileid="170" duration="230"/>
   </animation>
  </tile>
  <tile id="183">

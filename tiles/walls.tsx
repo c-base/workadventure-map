@@ -9,11 +9,6 @@
    <property name="collides" type="bool" value="true"/>
   </properties>
  </tile>
- <tile id="414">
-  <properties>
-   <property name="playAudio" value="../sounds/depressed.mp3"/>
-  </properties>
- </tile>
  <tile id="415">
   <properties>
    <property name="autoClose" type="bool" value="false"/>

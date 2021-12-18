@@ -58,34 +58,34 @@
  </tile>
  <tile id="462">
   <animation>
-   <frame tileid="558" duration="250"/>
-   <frame tileid="526" duration="250"/>
-   <frame tileid="494" duration="250"/>
-   <frame tileid="462" duration="250"/>
+   <frame tileid="558" duration="500"/>
+   <frame tileid="526" duration="500"/>
+   <frame tileid="494" duration="500"/>
+   <frame tileid="462" duration="500"/>
   </animation>
  </tile>
  <tile id="463">
   <animation>
-   <frame tileid="559" duration="250"/>
-   <frame tileid="527" duration="250"/>
-   <frame tileid="495" duration="250"/>
-   <frame tileid="463" duration="250"/>
+   <frame tileid="559" duration="500"/>
+   <frame tileid="527" duration="500"/>
+   <frame tileid="495" duration="500"/>
+   <frame tileid="463" duration="500"/>
   </animation>
  </tile>
  <tile id="494">
   <animation>
-   <frame tileid="462" duration="250"/>
-   <frame tileid="494" duration="250"/>
-   <frame tileid="526" duration="250"/>
-   <frame tileid="558" duration="250"/>
+   <frame tileid="462" duration="500"/>
+   <frame tileid="494" duration="500"/>
+   <frame tileid="526" duration="500"/>
+   <frame tileid="558" duration="500"/>
   </animation>
  </tile>
  <tile id="495">
   <animation>
-   <frame tileid="463" duration="250"/>
-   <frame tileid="495" duration="250"/>
-   <frame tileid="527" duration="250"/>
-   <frame tileid="559" duration="250"/>
+   <frame tileid="463" duration="500"/>
+   <frame tileid="495" duration="500"/>
+   <frame tileid="527" duration="500"/>
+   <frame tileid="559" duration="500"/>
   </animation>
  </tile>
  <tile id="520">

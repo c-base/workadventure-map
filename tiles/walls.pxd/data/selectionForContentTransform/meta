@@ -4,26 +4,26 @@
 <dict>
 	<key>backingScale</key>
 	<real>1</real>
+	<key>bitmapSelectionFilename</key>
+	<string>bitmapSelection</string>
 	<key>mode</key>
 	<integer>0</integer>
-	<key>shapeSelectionFilename</key>
-	<string>shapeSelection</string>
 	<key>size</key>
 	<data>
-	NC10UHpTVFAQAAAAQFgAAAAAAABAV8AAAAAAAA==
+	NC10UHpTVFAQAAAAQHbAAAAAAABAdsAAAAAAAA==
 	</data>
 	<key>softness</key>
 	<real>0.0</real>
 	<key>timestamp</key>
-	<real>661325238.34559</real>
+	<real>661527398.09967899</real>
 	<key>transform</key>
 	<array>
 		<real>1</real>
 		<real>0.0</real>
 		<real>0.0</real>
-		<real>1.0105263157894737</real>
+		<real>1</real>
 		<real>0.0</real>
-		<real>-4.7157894736841968</real>
+		<real>0.0</real>
 		<real>0.0</real>
 		<real>0.0</real>
 	</array>

@@ -123,9 +123,11 @@ Especially be aware if you find holes in the ground, as it may not be easy to ge
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="34" name="jitsiBierbank" width="68" height="46">
+ <layer id="34" name="bierbankJitsi" width="68" height="46">
   <properties>
-   <property name="jitsiRoom" value="c-base-bierbank"/>
+   <property name="jitsiRoom" value="cbaseBierbank"/>
+   <property name="jitsiTrigger" value="onaction"/>
+   <property name="jitsiTriggerMessage" value="Press SPACE to enter conversation"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -176,9 +178,11 @@ Especially be aware if you find holes in the ground, as it may not be easy to ge
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="37" name="jitsiFireplace" width="68" height="46">
+ <layer id="37" name="fireplaceJitsi" width="68" height="46">
   <properties>
-   <property name="jitsiRoom" value="c-base-fireplace"/>
+   <property name="jitsiRoom" value="cbaseFireplace"/>
+   <property name="jitsiTrigger" value="onaction"/>
+   <property name="jitsiTriggerMessage" value="Press SPACE to enter conversation"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -697,7 +701,7 @@ Especially be aware if you find holes in the ground, as it may not be easy to ge
 1673,1674,1675,1676,1677,1678,1679,1680,1673,1674,1675,1676,1677,1678,1679,1680,1673,1674,1675,1676,1677,1678,1679,1680,1673,1674,1675,1676,1677,1678,1679,1680,1673,1674,1675,1676,1677,1678,1679,1680,1673,1674,1675,1676,1677,1678,1679,1680,1673,1674,1675,1676,1677,1678,1679,1680,1673,1674,1675,1676,1677,1678,1679,1680,1673,1674,1675,1676
 </data>
  </layer>
- <layer id="30" name="wallDecorations" width="68" height="46">
+ <layer id="30" name="wallDeco" width="68" height="46">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -848,7 +852,7 @@ Especially be aware if you find holes in the ground, as it may not be easy to ge
 </data>
  </layer>
  <objectgroup id="3" name="floorLayer"/>
- <layer id="6" name="ceil" width="68" height="46">
+ <layer id="6" name="overlay1" width="68" height="46">
   <data encoding="csv">
 545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -898,7 +902,7 @@ Especially be aware if you find holes in the ground, as it may not be easy to ge
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="31" name="ceilDecorations" width="68" height="46">
+ <layer id="31" name="overlay2" width="68" height="46">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
