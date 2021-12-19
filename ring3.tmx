@@ -8,6 +8,7 @@
   <property name="mapDescription">Most inner ring of the c-base space station.  In this artificial habitat we try to host a nature-like ambient for science and relaxation of the members of the space station. As time passed, there formed some caverns, which may not be as safe as the rest of the station.
 
 Especially be aware if you find holes in the ground, as it may not be easy to get out again.</property>
+  <property name="mapLink" value="https://c-base.org/"/>
   <property name="mapName" value="c-base Ring 3 - Arboretum"/>
   <property name="script" value="script.js"/>
  </properties>

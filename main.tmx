@@ -6,6 +6,7 @@
  <properties>
   <property name="mapCopyright" value="Map created by StarPeak"/>
   <property name="mapDescription" value="This is the main passage between the rings of the c-base. It also acts as landing platform for incoming visitors."/>
+  <property name="mapLink" value="https://c-base.org/"/>
   <property name="mapName" value="c-base main passage"/>
   <property name="script" value="script.js"/>
  </properties>
@@ -15,8 +16,8 @@
  <tileset firstgid="2433" source="Tiles/labels.tsx"/>
  <layer id="13" name="mars_shake" width="42" height="96">
   <properties>
-   <property name="getBadge" value="CA4zKyH7N5eQaxfbP7qmh7ML5Y8h0CNTs6CBxIQYI0Y4waqTl0"/>
-   <property name="playAudioLoop" value="sounds/Mars_shake.mp3"/>
+   <property name="audioLoop" type="bool" value="true"/>
+   <property name="playAudio" value="sounds/Mars_shake.mp3"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2170,7 +2171,7 @@
  </layer>
  <layer id="32" name="exitWorld" width="42" height="96">
   <properties>
-   <property name="exitUrl" value="world://lounge"/>
+   <property name="exitUrl" value="world://lobby"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

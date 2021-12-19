@@ -6,6 +6,7 @@
  <properties>
   <property name="mapCopyright" value="Map created by StarPeak"/>
   <property name="mapDescription" value="This cave seems to have formed as some waste of the reactor leaked into the ground of the arboretum."/>
+  <property name="mapLink" value="https://c-base.org/"/>
   <property name="mapName" value="Uncharted cave"/>
   <property name="script" value="script.js"/>
  </properties>

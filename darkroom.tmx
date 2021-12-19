@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="3">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="4">
  <editorsettings>
   <export target="darkroom.json" format="json"/>
  </editorsettings>
  <properties>
   <property name="mapCopyright" value="Map created by StarPeak"/>
   <property name="mapDescription" value="It's dark ... so dark..."/>
+  <property name="mapLink" value="https://c-base.org/"/>
   <property name="mapName" value="Darkroom"/>
   <property name="script" value="script.js"/>
  </properties>
@@ -225,10 +226,13 @@
 </data>
  </layer>
  <objectgroup id="9" name="Badge">
-  <properties>
-   <property name="getBadge" value="J0KoPCelyhMXaBB6qXmmRQfED5nULBXQzJ1QESgeDEGRyiBgVF"/>
-  </properties>
   <object id="2" x="416.07" y="416.929" width="95.3554" height="95.3554"/>
+  <object id="3" x="494.784" y="506.706">
+   <properties>
+    <property name="getBadge" value="J0KoPCelyhMXaBB6qXmmRQfED5nULBXQzJ1QESgeDEGRyiBgVF"/>
+   </properties>
+   <point/>
+  </object>
  </objectgroup>
  <layer id="6" name="exit" width="100" height="100">
   <properties>

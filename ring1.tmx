@@ -6,6 +6,7 @@
  <properties>
   <property name="mapCopyright" value="Map created by StarPeak"/>
   <property name="mapDescription" value="Most outer ring of the c-base space station.  It provides passage to the flightdeck and the medbay and - besides a bar - has some rooms, where friends and members of the space station present themselfes."/>
+  <property name="mapLink" value="https://c-base.org/"/>
   <property name="mapName" value="c-base Ring 1"/>
   <property name="script" value="script.js"/>
  </properties>

@@ -6,6 +6,7 @@
  <properties>
   <property name="mapCopyright" value="Map created by StarPeak"/>
   <property name="mapDescription" value="The flightdeck of the c-base"/>
+  <property name="mapLink" value="https://c-base.org/"/>
   <property name="mapName" value="Flightdeck"/>
   <property name="script" value="script.js"/>
  </properties>

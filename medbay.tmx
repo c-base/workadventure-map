@@ -6,6 +6,7 @@
  <properties>
   <property name="mapCopyright" value="Map created by StarPeak"/>
   <property name="mapDescription" value="An abondend medical facility, where in the past experiments on all forms of creatures were done. Hopefully we never need to activate it again and can relay on the services of the CERT."/>
+  <property name="mapLink" value="https://c-base.org/"/>
   <property name="mapName" value="c-base MedBay"/>
   <property name="script" value="script.js"/>
  </properties>

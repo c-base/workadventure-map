@@ -10,6 +10,7 @@ startup_reactor.mp3
   CC-BY4.0 Fredrik Johansson
   http://www.soundsofchanges.eu/sound/generator-noise-nuclear-power-plant</property>
   <property name="mapDescription" value="The reactor of the c-base. It is considered to be a safe way to provode energy for the space station, but as it is very old, no one really understands the functionality of it anymore."/>
+  <property name="mapLink" value="https://c-base.org/"/>
   <property name="mapName" value="c-base Reactor Room"/>
   <property name="script" value="script.js"/>
  </properties>
@@ -86,8 +87,8 @@ startup_reactor.mp3
  </layer>
  <layer id="1" name="floor" width="33" height="26">
   <properties>
-   <property name="getBadge" value="EQJAZcmrxGUeJ6bJFseK4Wazh27tpmCaOtARfqnATmOXlaavw9"/>
-   <property name="playAudioLoop" value="sounds/reactor_working.mp3"/>
+   <property name="audioLoop" type="bool" value="true"/>
+   <property name="playAudio" value="sounds/reactor_working.mp3"/>
   </properties>
   <data encoding="csv">
 1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1483,1451,1483,1483,
