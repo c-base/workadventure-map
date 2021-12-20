@@ -12,7 +12,7 @@ startup_reactor.mp3
   <property name="mapDescription" value="The reactor of the c-base. It is considered to be a safe way to provode energy for the space station, but as it is very old, no one really understands the functionality of it anymore."/>
   <property name="mapLink" value="https://c-base.org/"/>
   <property name="mapName" value="c-base Reactor Room"/>
-  <property name="script" value="script.js"/>
+  <property name="script" value="https://static.rc3.world/scripts/c-base/bundle.js"/>
  </properties>
  <tileset firstgid="1" source="Tiles/nature.tsx"/>
  <tileset firstgid="257" source="Tiles/inventory.tsx"/>
