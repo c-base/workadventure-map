@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.5" tiledversion="1.7.2" name="inventory" tilewidth="32" tileheight="32" tilecount="384" columns="16">
+<tileset version="1.5" tiledversion="1.7.2" name="inventory" tilewidth="32" tileheight="32" tilecount="512" columns="16">
  <properties>
   <property name="tilesetCopyright">Tileset 'inventory' made by c-base members
 - coffeebots and Siri probe made by e-punc
@@ -8,7 +8,7 @@
 - couch and sink taken from Workadventure
 - most other stuff made by StarPeak</property>
  </properties>
- <image source="../img/inventory.png" width="512" height="768"/>
+ <image source="../img/inventory.png" width="512" height="1024"/>
  <tile id="16">
   <properties>
    <property name="collides" type="bool" value="true"/>
@@ -475,6 +475,21 @@
    <property name="collides" type="bool" value="true"/>
   </properties>
  </tile>
+ <tile id="368">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="369">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="370">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
  <tile id="378">
   <properties>
    <property name="collides" type="bool" value="true"/>
@@ -489,5 +504,31 @@
   <properties>
    <property name="collides" type="bool" value="true"/>
   </properties>
+ </tile>
+ <tile id="384">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="385">
+  <animation>
+   <frame tileid="385" duration="250"/>
+   <frame tileid="387" duration="250"/>
+   <frame tileid="388" duration="250"/>
+   <frame tileid="387" duration="250"/>
+  </animation>
+ </tile>
+ <tile id="386">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="401">
+  <animation>
+   <frame tileid="401" duration="250"/>
+   <frame tileid="403" duration="250"/>
+   <frame tileid="404" duration="250"/>
+   <frame tileid="403" duration="250"/>
+  </animation>
  </tile>
 </tileset>
