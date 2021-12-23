@@ -41,6 +41,14 @@ WA.room.onEnterZone('darkness', () => {
   })
 })
 
+WA.room.onEnterZone('customSound', () => {
+  console.log('play custom Sound');
+  let volume = 1;
+  WA.sound.loadSound("sounds/depressed.mp3").play({
+    volume,
+  });
+})
+
 // WA.room.onEnterLayer('darkness').subscribe(() => {
 //   WA.chat.sendChatMessage("Hello!", 'Mr Robot');
 // });
