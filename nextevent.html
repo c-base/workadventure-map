@@ -139,7 +139,7 @@
           return
         }
 
-        if(!assembly.match(/^[a-zA-Z0-9\-]+$/)) {
+        if(!assembly.match(/^[a-zA-Z0-9\-_]+$/)) {
           document.getElementById("next-event").innerHTML = "ERROR: Parameter `assembly` not valid"
           return
         }
