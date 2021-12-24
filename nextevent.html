@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <style>
+      body {
+        background: #036;
+        color: #fff;
+        font-size: 5px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="next-event">No events found</div>
+
+    <script>
+      // Event object
+      class MyEvent {
+        constructor(jsonData){
+          this.assembly=jsonData.assembly;
+          this.conference=jsonData.conference;
+          this.description=jsonData.description;
+          this.id=jsonData.id;
+          this.kind=jsonData.kind;
+          this.language=jsonData.language;
+          this.name=jsonData.name;
+          this.room=jsonData.room;
+          this.scheduleDuration=jsonData.schedule_duration;
+          this.scheduleEnd=new Date(jsonData.schedule_end);
+          this.scheduleStart=new Date(jsonData.schedule_start);
+          this.slug=jsonData.slug;
+          this.track=jsonData.track;
+          this.url=jsonData.url;
+        }
+      }
+
+      // format Time
+      function formatTime(date){
+        var hours=date.getHours()
+        var minutes=date.getMinutes();
+        if(minutes<10) {
+          minutes="0"+minutes;
+        }
+        return hours+":"+minutes;
+      }
+
+      // get JSON from URL
+      function getJSON(url, callback) {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, true);
+        xhr.responseType = 'json';
+        xhr.onload = function() {
+          var status = xhr.status;
+          if (status === 200) {
+            callback(null, xhr.response);
+          } else {
+            callback(status, xhr.response);
+          }
+        };
+        xhr.send();
+      }
+
+      // Get Next or Running event
+      function nextEvent(data) {
+        var lastEvent = null;
+        var now = new Date;
+
+        data.forEach( function(obj) {
+          var event = new MyEvent(obj);
+
+          if(event.room == "5cfed623-26cc-4ac4-a4b2-0653195ddb4a") {
+            if(event.scheduleEnd >= now) {
+              if (lastEvent == null || event.scheduleStart < lastEvent.scheduleStart) {
+                lastEvent = event;
+              }
+            }
+          }
+        });
+
+        return(lastEvent);
+      }
+
+      // Get Events for c-base from API and render next Event
+      getJSON("https://api.rc3.world/api/c/rc3_21/assembly/c-base/events", function(err, data) {
+        if (err !== null) {
+          document.getElementById("next-event").innerHTML = 'Something went wrong: ' + err;
+        } else {
+          if(e = nextEvent(data))
+            document.getElementById("next-event").innerHTML = e.scheduleStart.getDate() + '.' + ( e.scheduleStart.getMonth()+1 ) + '. ' + formatTime(e.scheduleStart) + '-' + formatTime(e.scheduleEnd) + '<br>' + e.name + '<p>' + e.description + '</p>';
+        }
+      });
+    </script>
+  </body>
+</html>
