@@ -1,18 +1,26 @@
 <html>
   <head>
     <style>
-      body {
-        background: #036;
-        color: #fff;
-        font-size: 5px;
+      @font-face {
+        font-family: 'SpaceMono-Regular';
+        src: url('fonts/SpaceMono-Regular.woff') format('woff'),
+             url('fonts/SpaceMono-Regular.ttf') format('ttf');
       }
 
+      body {
+        font-family: 'SpaceMono-Regular', 'lucida console', 'andale mono', 'verdana', 'sans-serif';
+        //background: #036;
+        //color: #fff;
+        font-size: 5px;
+      }
     </style>
   </head>
   <body>
     <div id="next-event">No events found</div>
 
     <script>
+      // Example call: nextevent.html?assembly=c-base&room=5cfed623-26cc-4ac4-a4b2-0653195ddb4a
+
       // Event object
       class MyEvent {
         constructor(jsonData){
@@ -60,14 +68,14 @@
       }
 
       // Get Next or Running event
-      function nextEvent(data) {
+      function nextEvent(data, room) {
         var lastEvent = null;
         var now = new Date;
 
         data.forEach( function(obj) {
           var event = new MyEvent(obj);
 
-          if(event.room == "5cfed623-26cc-4ac4-a4b2-0653195ddb4a") {
+          if(room == null || event.room == room) {
             if(event.scheduleEnd >= now) {
               if (lastEvent == null || event.scheduleStart < lastEvent.scheduleStart) {
                 lastEvent = event;
@@ -79,15 +87,75 @@
         return(lastEvent);
       }
 
-      // Get Events for c-base from API and render next Event
-      getJSON("https://api.rc3.world/api/c/rc3_21/assembly/c-base/events", function(err, data) {
-        if (err !== null) {
-          document.getElementById("next-event").innerHTML = 'Something went wrong: ' + err;
-        } else {
-          if(e = nextEvent(data))
-            document.getElementById("next-event").innerHTML = e.scheduleStart.getDate() + '.' + ( e.scheduleStart.getMonth()+1 ) + '. ' + formatTime(e.scheduleStart) + '-' + formatTime(e.scheduleEnd) + '<br>' + e.name + '<p>' + e.description + '</p>';
+      function init() {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const assembly = urlParams.get('assembly');
+        const room = urlParams.get('room');
+        var bg_a = urlParams.get('bg1');
+        var bg_b = urlParams.get('bg2');
+        var fg = urlParams.get('fg');
+
+        // Set default colors
+        if(bg_a == null) {
+          bg_a = "036";
         }
-      });
+
+        if(bg_b == null) {
+          bg_b = bg_a;
+        }
+
+        if(fg == null) {
+          fg = "fff";
+        }
+
+        // Sanatize colors parameters
+        if(!(bg_a.match(/^[0-9a-f]{3}$/) || bg_a.match(/^[0-9a-f]{6}$/))) {
+          document.getElementById("next-event").innerHTML = "ERROR: Parameter `bg1` has to be a 3 or 6 digit RGB hex value without leading #"
+          return
+        }
+        if(!(bg_b.match(/^[0-9a-f]{3}$/) || bg_b.match(/^[0-9a-f]{6}$/))) {
+          document.getElementById("next-event").innerHTML = "ERROR: Parameter `bg2` has to be a 3 or 6 digit RGB hex value without leading #"
+          return
+        }
+        if(!(fg.match(/^[0-9a-f]{3}$/) || fg.match(/^[0-9a-f]{6}$/))) {
+          document.getElementById("next-event").innerHTML = "ERROR: Parameter `fg` has to be a 3 or 6 digit RGB hex value without leading #"
+          return
+        }
+
+        // Set colors
+        document.body.style.color = '#' + fg;
+        document.body.style.background = "linear-gradient(135deg, #" + bg_a + " 0%, #" + bg_b + " 100%)"
+
+        // Sanatize assembly parameter
+        if(assembly == null) {
+          document.getElementById("next-event").innerHTML = "ERROR: You need to provide an assemby slug as get parameter `assembly`"
+          return
+        }
+
+        if(!assembly.match(/^[a-zA-Z0-9\-]+$/)) {
+          document.getElementById("next-event").innerHTML = "ERROR: Parameter `assembly` not valid"
+          return
+        }
+
+        // Sanatize room parameter
+        if(!room == null && !room.match(/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/)) {
+          document.getElementById("next-event").innerHTML = "ERROR: Parameter `room` not valid"
+          return
+        }
+
+        // Get Events for c-base from API and render next Event
+        getJSON("https://api.rc3.world/api/c/rc3_21/assembly/" + assembly + "/events", function(err, data) {
+          if (err !== null) {
+            document.getElementById("next-event").innerHTML = 'Something went wrong: ' + err;
+          } else {
+            if(e = nextEvent(data, room))
+              document.getElementById("next-event").innerHTML = e.scheduleStart.getDate() + '.' + ( e.scheduleStart.getMonth()+1 ) + '. ' + formatTime(e.scheduleStart) + '-' + formatTime(e.scheduleEnd) + '<br>' + e.name + '<p>' + e.description + '</p>';
+          }
+        });
+      }
+
+      init();
     </script>
   </body>
 </html>
