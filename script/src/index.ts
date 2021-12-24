@@ -7,7 +7,6 @@ bootstrapExtra().catch(e => console.error(e));
 
 // Flashlight in darkness
 WA.room.onEnterZone('darkness', () => {
-// WA.room.onEnterLayer('darkness').subscribe(() => {
   let old_x: number = 0;
   let old_y: number = 0;
 
@@ -41,35 +40,96 @@ WA.room.onEnterZone('darkness', () => {
   })
 })
 
-WA.room.onEnterZone('customSound', () => {
-  console.log('play custom Sound');
-  let volume = 1;
-  WA.sound.loadSound("sounds/depressed.mp3").play({
-    volume,
-  });
-})
+export class Event {
+  assembly: string
+  conference: string
+  description: string
+  id: string
+  kind: string
+  language: string
+  name: string
+  room: string
+  scheduleDuration: string
+  scheduleEnd: Date
+  scheduleStart: Date
+  slug: string
+  track: any
+  url: string
 
-// WA.room.onEnterLayer('darkness').subscribe(() => {
-//   WA.chat.sendChatMessage("Hello!", 'Mr Robot');
-// });
-
-// example code and testing ground - remove if advanced with own script
-
-let currentPopup: any = undefined;
-const today = new Date();
-const time = today.getHours() + ":" + today.getMinutes();
-
-WA.room.onEnterZone('clock', () => {
-  currentPopup =  WA.ui.openPopup("clockPopup","It's " + time,[]);
-
-  //WA.chat.sendChatMessage('I didn\'t ask to be made: no one consulted me or considered my feelings in the matter. I don\'t think it even occurred to them that I might have feelings. After I was made, I was left in a dark room for six months... and me with this terrible pain in all the diodes down my left side. I called for succour in my loneliness, but did anyone come? Did they hell. My first and only true friend was a small rat. One day it crawled into a cavity in my right ankle and died. I have a horrible feeling it\'s still there...', 'Marvin');
-})
-
-WA.room.onLeaveZone('clock', closePopUp)
-
-function closePopUp(){
-  if (currentPopup !== undefined) {
-    currentPopup.close();
-    currentPopup = undefined;
+  constructor( jsonData: any )
+  {
+    this.assembly = jsonData.assembly
+    this.conference = jsonData.conference
+    this.description = jsonData.description
+    this.id = jsonData.id
+    this.kind = jsonData.kind
+    this.language = jsonData.language
+    this.name = jsonData.name
+    this.room = jsonData.room
+    this.scheduleDuration = jsonData.schedule_duration
+    this.scheduleEnd = new Date(jsonData.schedule_end)
+    this.scheduleStart = new Date(jsonData.schedule_start)
+    this.slug = jsonData.slug
+    this.track = jsonData.track
+    this.url = jsonData.url
   }
 }
+
+// get JSON from URL
+function getJSON(url:string, callback:Function) {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', url, true);
+  xhr.responseType = 'json';
+  xhr.onload = function() {
+    var status = xhr.status;
+    if (status === 200) {
+      callback(null, xhr.response);
+    } else {
+      callback(status, xhr.response);
+    }
+  };
+  xhr.send();
+}
+
+function nextEvent(data:any):Event {
+  console.log(data);
+  var lastEvent:Event = new Event({
+    name: 'No further event',
+    schedule_start: new Date("2021-12-31 00:00"),
+    schedule_end: new Date()
+  });
+  var now:Date = new Date("2021-12-28 18:30:30");
+
+  data.forEach( (obj:any) => {
+    let event = new Event(obj);
+
+    if(event.scheduleEnd >= now) {
+      if (event.scheduleStart < lastEvent.scheduleStart) {
+        lastEvent = event;
+      }
+    }
+  })
+
+  return(lastEvent);
+}
+
+function formatTime(date:Date):string {
+  var hours:number = date.getHours()
+  var minutes:any = date.getMinutes()
+
+  if(minutes < 10) {
+    minutes = '0' + minutes
+  }
+
+  return hours + ':' + minutes
+}
+
+// Get Events for c-base from API
+getJSON("https://api.rc3.world/api/c/rc3_21/assembly/c-base/events", (err:any, data:any) => {
+  if (err !== null) {
+      alert('Something went wrong: ' + err);
+    } else {
+      let e:Event = nextEvent(data)
+      WA.ui.openPopup("nextEventPopup", e.scheduleStart.getDate() + '.' + ( e.scheduleStart.getMonth()+1 ) + ' ' + formatTime(e.scheduleStart) + '-' + formatTime(e.scheduleEnd) + "\n" + e.name, []);
+    }
+})

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="68" height="42" tilewidth="32" tileheight="32" infinite="0" nextlayerid="61" nextobjectid="20">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="68" height="42" tilewidth="32" tileheight="32" infinite="0" nextlayerid="61" nextobjectid="22">
  <editorsettings>
   <export target="ring2.json" format="json"/>
  </editorsettings>
@@ -1605,7 +1605,18 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="3" name="floorLayer"/>
+ <objectgroup id="3" name="floorLayer">
+  <object id="20" name="mainstageNextEvent" type="website" x="860.341" y="677.109" width="102.895" height="60.7389">
+   <properties>
+    <property name="url" value="https://rc3.c-base.org/2rc3-map/nextevent.html?assembly=c-base&amp;room=5cfed623-26cc-4ac4-a4b2-0653195ddb4a&amp;bg1=transparent&amp;bg2=transparent&amp;fg=fff"/>
+   </properties>
+  </object>
+  <object id="21" name="seminarNextEvent" type="website" x="1669.55" y="614.211" width="102.895" height="60.7389">
+   <properties>
+    <property name="url" value="https://rc3.c-base.org/2rc3-map/nextevent.html?assembly=c-base&amp;room=ed1ce8e2-7a4b-421d-8f1d-22f5e9e62d94&amp;bg1=transparent&amp;bg2=transparent&amp;fg=fff"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="6" name="overlay1" width="68" height="42">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
