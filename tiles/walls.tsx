@@ -9,6 +9,11 @@
    <property name="collides" type="bool" value="true"/>
   </properties>
  </tile>
+ <tile id="501">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
  <tile id="519">
   <properties>
    <property name="collides" type="bool" value="true"/>
