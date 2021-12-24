@@ -9,8 +9,6 @@
 
       body {
         font-family: 'SpaceMono-Regular', 'lucida console', 'andale mono', 'verdana', 'sans-serif';
-        //background: #036;
-        //color: #fff;
         font-size: 5px;
       }
     </style>
@@ -19,7 +17,13 @@
     <div id="next-event">No events found</div>
 
     <script>
-      // Example call: nextevent.html?assembly=c-base&room=5cfed623-26cc-4ac4-a4b2-0653195ddb4a
+      // Example call: nextevent.html?assembly=c-base&room=5cfed623-26cc-4ac4-a4b2-0653195ddb4a&fg=fff&bg1=f00&bg2=00f
+      //
+      // assembly [mandatory] - set assembly slug to get events for
+      // root [optional] - limit events to a room (all rooms if not given)
+      // fg [optional] - Text/Forground color in 3 or 6 digit hex RGB value without leading #
+      // bg1 [optional] - Upper left color in 3 or 6 digit hex RGB value without leading #
+      // bg2 [optional] - Lower right color in 3 or 6 digit hex RGB value without leading #; same as bg1 if not given
 
       // Event object
       class MyEvent {
