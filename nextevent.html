@@ -10,7 +10,7 @@
 
       body {
         font-family: 'SpaceMono-Regular', 'sans-serif';
-        font-size: 5px;
+        font-size: 4px;
       }
     </style>
     <title>Upcoming event</title>
@@ -23,9 +23,9 @@
       //
       // assembly [mandatory] - set assembly slug to get events for
       // root [optional] - limit events to a room (all rooms if not given)
-      // fg [optional] - Text/Forground color in 3 or 6 digit hex RGB value without leading #
-      // bg1 [optional] - Upper left color in 3 or 6 digit hex RGB value without leading #
-      // bg2 [optional] - Lower right color in 3 or 6 digit hex RGB value without leading #; same as bg1 if not given
+      // fg [optional] - Text/Forground color in 3 or 6 digit hex RGB value without leading #; defaults to fff
+      // bg1 [optional] - Upper left color in 3 or 6 digit hex RGB value without leading # or transparent; defaults to transparent
+      // bg2 [optional] - Lower right color in 3 or 6 digit hex RGB value without leading # or transparent; same as bg1 if not given
 
       // Event object
       class MyEvent {
@@ -104,7 +104,7 @@
 
         // Set default colors
         if(bg_a == null) {
-          bg_a = "036";
+          bg_a = "transparent"
         }
 
         if(bg_b == null) {
@@ -116,11 +116,11 @@
         }
 
         // Sanatize colors parameters
-        if(!(bg_a.match(/^[0-9a-f]{3}$/) || bg_a.match(/^[0-9a-f]{6}$/))) {
+        if(!(bg_a.match(/^[0-9a-f]{3}$/) || bg_a.match(/^[0-9a-f]{6}$/) || bg_a == 'transparent')) {
           document.getElementById("next-event").innerHTML = "ERROR: Parameter `bg1` has to be a 3 or 6 digit RGB hex value without leading #"
           return
         }
-        if(!(bg_b.match(/^[0-9a-f]{3}$/) || bg_b.match(/^[0-9a-f]{6}$/))) {
+        if(!(bg_b.match(/^[0-9a-f]{3}$/) || bg_b.match(/^[0-9a-f]{6}$/) || bg_a == 'transparent')) {
           document.getElementById("next-event").innerHTML = "ERROR: Parameter `bg2` has to be a 3 or 6 digit RGB hex value without leading #"
           return
         }
