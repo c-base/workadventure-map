@@ -531,4 +531,34 @@
    <frame tileid="403" duration="250"/>
   </animation>
  </tile>
+ <tile id="435">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="436">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="437">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="438">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="453">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="454">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
 </tileset>
