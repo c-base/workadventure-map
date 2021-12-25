@@ -116,15 +116,15 @@
         }
 
         // Sanatize colors parameters
-        if(!(bg_a.match(/^[0-9a-f]{3}$/) || bg_a.match(/^[0-9a-f]{6}$/) || bg_a == 'transparent')) {
+        if(!(bg_a.match(/^[0-9a-fA-F]{3}$/) || bg_a.match(/^[0-9a-fA-F]{6}$/) || bg_a == 'transparent')) {
           document.getElementById("next-event").innerHTML = "ERROR: Parameter `bg1` has to be a 3 or 6 digit RGB hex value without leading #"
           return
         }
-        if(!(bg_b.match(/^[0-9a-f]{3}$/) || bg_b.match(/^[0-9a-f]{6}$/) || bg_a == 'transparent')) {
+        if(!(bg_b.match(/^[0-9a-fA-F]{3}$/) || bg_b.match(/^[0-9a-fA-F]{6}$/) || bg_a == 'transparent')) {
           document.getElementById("next-event").innerHTML = "ERROR: Parameter `bg2` has to be a 3 or 6 digit RGB hex value without leading #"
           return
         }
-        if(!(fg.match(/^[0-9a-f]{3}$/) || fg.match(/^[0-9a-f]{6}$/))) {
+        if(!(fg.match(/^[0-9a-fA-F]{3}$/) || fg.match(/^[0-9a-fA-F]{6}$/))) {
           document.getElementById("next-event").innerHTML = "ERROR: Parameter `fg` has to be a 3 or 6 digit RGB hex value without leading #"
           return
         }
