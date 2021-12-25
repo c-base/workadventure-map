@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="68" height="42" tilewidth="32" tileheight="32" infinite="0" nextlayerid="63" nextobjectid="22">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="68" height="42" tilewidth="32" tileheight="32" infinite="0" nextlayerid="63" nextobjectid="34">
  <editorsettings>
   <export target="ring2.json" format="json"/>
  </editorsettings>
@@ -1588,8 +1588,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1195,1196,1197,770,0,0,737,719,838,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,705,772,0,0,771,705,805,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1211,1212,1213,0,0,0,0,1178,841,737,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1186,0,0,0,0,1174,847,1270,0,0,0,0,0,0,0,813,0,0,769,720,740,770,771,705,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,705,705,715,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,808,718,705,0,0,0,0,0,776,777,0,0,0,1175,801,1249,1250,1251,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,844,737,0,0,737,737,806,0,1252,1253,0,0,0,0,0,0,0,0,0,0,705,705,705,705,705,834,0,0,0,0,776,777,1265,1266,1267,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,773,839,0,0,0,778,0,0,0,0,1177,801,0,1268,1269,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,844,737,0,0,737,737,806,0,1291,1292,0,0,0,0,0,0,0,0,0,0,705,705,705,705,705,834,0,0,0,0,776,777,1265,1266,1267,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,773,839,0,0,0,778,0,0,0,0,1177,801,0,1307,1308,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,1169,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,840,705,738,705,802,0,0,0,0,0,808,705,705,705,705,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1597,7 +1597,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,812,737,737,0,0,773,720,717,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,712,1674,0,0,0,0,1173,842,720,769,811,772,773,0,0,769,769,740,770,771,705,705,741,705,0,0,0,0,0,0,0,0,0,0,0,769,720,740,769,769,770,0,0,773,769,769,743,0,0,0,0,0,0,711,720,769,0,0,769,770,771,738,0,0,0,
-0,0,0,779,0,0,0,0,0,0,0,0,0,714,0,0,0,0,0,1270,779,0,2177,2177,2177,848,0,0,0,0,0,0,0,0,0,0,0,0,0,0,801,1203,0,0,0,0,0,0,0,833,0,0,0,0,0,0,833,1270,0,0,0,0,0,0,801,0,0,0,
+0,0,0,779,0,0,0,0,0,0,0,0,0,714,0,0,0,0,0,1270,779,0,2177,2177,2177,848,0,0,0,0,0,0,0,0,0,0,0,0,0,0,801,1203,0,0,0,0,0,0,0,833,0,0,0,0,0,0,833,1290,0,0,0,0,0,0,801,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,847,0,0,0,0,0,0,774,775,0,0,0,833,0,0,0,0,0,0,0,0,0,0,0,0,0,0,801,0,0,0,0,0,0,0,98,833,0,0,0,0,0,0,833,0,0,0,0,0,0,0,801,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1706,13 +1706,78 @@
  <objectgroup id="3" name="floorLayer">
   <object id="20" name="mainstageNextEvent" type="website" x="860.341" y="677.109" width="102.895" height="60.7389">
    <properties>
-    <property name="url" value="https://rc3.c-base.org/2rc3-map/nextevent.html?assembly=c-base&amp;room=5cfed623-26cc-4ac4-a4b2-0653195ddb4a&amp;bg1=transparent&amp;bg2=transparent&amp;fg=fff"/>
+    <property name="url" value="https://rc3.c-base.org/2rc3-map/nextevent.html?assembly=c-base&amp;room=5cfed623-26cc-4ac4-a4b2-0653195ddb4a&amp;bg1=transparent&amp;bg2=transparent&amp;fg=AFAAA4"/>
    </properties>
   </object>
   <object id="21" name="seminarNextEvent" type="website" x="1669.55" y="614.211" width="102.895" height="60.7389">
    <properties>
-    <property name="url" value="https://rc3.c-base.org/2rc3-map/nextevent.html?assembly=c-base&amp;room=ed1ce8e2-7a4b-421d-8f1d-22f5e9e62d94&amp;bg1=transparent&amp;bg2=transparent&amp;fg=fff"/>
+    <property name="url" value="https://rc3.c-base.org/2rc3-map/nextevent.html?assembly=c-base&amp;room=ed1ce8e2-7a4b-421d-8f1d-22f5e9e62d94&amp;bg1=transparent&amp;bg2=transparent&amp;fg=AFAAA4"/>
    </properties>
+  </object>
+  <object id="1" name="mainstageDoor" type="variable" x="1056.02" y="734.7">
+   <properties>
+    <property name="closeLayer" value="mainstageDoorClosed"/>
+    <property name="closeSound" value="./sounds/door_slide.wav"/>
+    <property name="default" type="bool" value="false"/>
+    <property name="door" type="bool" value="true"/>
+    <property name="openLayer" value="mainstageDoorOpen"/>
+    <property name="openSound" value="./sounds/door_slide.wav"/>
+    <property name="soundRadius" type="int" value="320"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="10" name="symbiontDoor" type="variable" x="1409.14" y="648.615">
+   <properties>
+    <property name="closeLayer" value="symbiontDoorClosed"/>
+    <property name="closeSound" value="./sounds/door_slide.wav"/>
+    <property name="default" type="bool" value="false"/>
+    <property name="door" type="bool" value="true"/>
+    <property name="openLayer" value="symbiontDoorOpen"/>
+    <property name="openSound" value="./sounds/door_slide.wav"/>
+    <property name="soundRadius" type="int" value="320"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="9" name="socializeDoor" type="variable" x="639.408" y="644.818">
+   <properties>
+    <property name="closeLayer" value="socializeDoorClosed"/>
+    <property name="closeSound" value="./sounds/door_slide.wav"/>
+    <property name="default" type="bool" value="false"/>
+    <property name="door" type="bool" value="true"/>
+    <property name="openLayer" value="socializeDoorOpen"/>
+    <property name="openSound" value="./sounds/door_slide.wav"/>
+    <property name="soundRadius" type="int" value="320"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="11" name="loccpiccDoor" type="variable" x="224.007" y="960.62">
+   <properties>
+    <property name="closeLayer" value="loccpiccDoorClosed"/>
+    <property name="closeSound" value="./sounds/door_slide.wav"/>
+    <property name="default" type="bool" value="false"/>
+    <property name="door" type="bool" value="true"/>
+    <property name="openLayer" value="loccpiccDoorOpen"/>
+    <property name="openSound" value="./sounds/door_slide.wav"/>
+    <property name="soundRadius" type="int" value="320"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="8" name="mainstageVideo" type="website" x="929.789" y="214.625" width="252.014" height="142.068">
+   <properties>
+    <property name="url" value="https://streaming.test.c3voc.de/rc3/embed/test/dash/native"/>
+   </properties>
+  </object>
+  <object id="12" name="seminarDoor" type="variable" x="1853.93" y="672.797">
+   <properties>
+    <property name="closeLayer" value="seminarDoorClosed"/>
+    <property name="closeSound" value="./sounds/door_slide.wav"/>
+    <property name="default" type="bool" value="false"/>
+    <property name="door" type="bool" value="true"/>
+    <property name="openLayer" value="seminarDoorOpen"/>
+    <property name="openSound" value="./sounds/door_slide.wav"/>
+    <property name="soundRadius" type="int" value="320"/>
+   </properties>
+   <point/>
   </object>
  </objectgroup>
  <layer id="6" name="overlay1" width="68" height="42">
@@ -1853,71 +1918,4 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="13" name="Objects">
-  <object id="1" name="mainstageDoor" type="variable" x="1056.02" y="734.7">
-   <properties>
-    <property name="closeLayer" value="mainstageDoorClosed"/>
-    <property name="closeSound" value="./sounds/door_slide.wav"/>
-    <property name="default" type="bool" value="false"/>
-    <property name="door" type="bool" value="true"/>
-    <property name="openLayer" value="mainstageDoorOpen"/>
-    <property name="openSound" value="./sounds/door_slide.wav"/>
-    <property name="soundRadius" type="int" value="320"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="10" name="symbiontDoor" type="variable" x="1409.14" y="648.615">
-   <properties>
-    <property name="closeLayer" value="symbiontDoorClosed"/>
-    <property name="closeSound" value="./sounds/door_slide.wav"/>
-    <property name="default" type="bool" value="false"/>
-    <property name="door" type="bool" value="true"/>
-    <property name="openLayer" value="symbiontDoorOpen"/>
-    <property name="openSound" value="./sounds/door_slide.wav"/>
-    <property name="soundRadius" type="int" value="320"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="9" name="socializeDoor" type="variable" x="639.408" y="644.818">
-   <properties>
-    <property name="closeLayer" value="socializeDoorClosed"/>
-    <property name="closeSound" value="./sounds/door_slide.wav"/>
-    <property name="default" type="bool" value="false"/>
-    <property name="door" type="bool" value="true"/>
-    <property name="openLayer" value="socializeDoorOpen"/>
-    <property name="openSound" value="./sounds/door_slide.wav"/>
-    <property name="soundRadius" type="int" value="320"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="11" name="loccpiccDoor" type="variable" x="224.007" y="960.62">
-   <properties>
-    <property name="closeLayer" value="loccpiccDoorClosed"/>
-    <property name="closeSound" value="./sounds/door_slide.wav"/>
-    <property name="default" type="bool" value="false"/>
-    <property name="door" type="bool" value="true"/>
-    <property name="openLayer" value="loccpiccDoorOpen"/>
-    <property name="openSound" value="./sounds/door_slide.wav"/>
-    <property name="soundRadius" type="int" value="320"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="8" name="mainstageVideo" type="website" x="929.789" y="214.625" width="252.014" height="142.068">
-   <properties>
-    <property name="url" value="https://streaming.test.c3voc.de/rc3/embed/test/dash/native"/>
-   </properties>
-  </object>
-  <object id="12" name="seminarDoor" type="variable" x="1853.93" y="672.797">
-   <properties>
-    <property name="closeLayer" value="seminarDoorClosed"/>
-    <property name="closeSound" value="./sounds/door_slide.wav"/>
-    <property name="default" type="bool" value="false"/>
-    <property name="door" type="bool" value="true"/>
-    <property name="openLayer" value="seminarDoorOpen"/>
-    <property name="openSound" value="./sounds/door_slide.wav"/>
-    <property name="soundRadius" type="int" value="320"/>
-   </properties>
-   <point/>
-  </object>
- </objectgroup>
 </map>
