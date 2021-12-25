@@ -120,7 +120,7 @@
           document.getElementById("next-event").innerHTML = "ERROR: Parameter `bg1` has to be a 3 or 6 digit RGB hex value without leading #"
           return
         }
-        if(!(bg_b.match(/^[0-9a-fA-F]{3}$/) || bg_b.match(/^[0-9a-fA-F]{6}$/) || bg_a == 'transparent')) {
+        if(!(bg_b.match(/^[0-9a-fA-F]{3}$/) || bg_b.match(/^[0-9a-fA-F]{6}$/) || bg_b == 'transparent')) {
           document.getElementById("next-event").innerHTML = "ERROR: Parameter `bg2` has to be a 3 or 6 digit RGB hex value without leading #"
           return
         }
