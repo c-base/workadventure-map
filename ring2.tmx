@@ -1917,7 +1917,7 @@
     <property name="door" type="bool" value="true"/>
     <property name="openLayer" value="mainstageDoorOpen"/>
     <property name="openSound" value="./sounds/door_slide.wav"/>
-    <property name="soundRadius" type="int" value="320"/>
+    <property name="soundRadius" type="int" value="160"/>
    </properties>
    <point/>
   </object>
@@ -1929,7 +1929,7 @@
     <property name="door" type="bool" value="true"/>
     <property name="openLayer" value="symbiontDoorOpen"/>
     <property name="openSound" value="./sounds/door_slide.wav"/>
-    <property name="soundRadius" type="int" value="320"/>
+    <property name="soundRadius" type="int" value="160"/>
    </properties>
    <point/>
   </object>
@@ -1941,7 +1941,7 @@
     <property name="door" type="bool" value="true"/>
     <property name="openLayer" value="socializeDoorOpen"/>
     <property name="openSound" value="./sounds/door_slide.wav"/>
-    <property name="soundRadius" type="int" value="320"/>
+    <property name="soundRadius" type="int" value="160"/>
    </properties>
    <point/>
   </object>
@@ -1953,7 +1953,7 @@
     <property name="door" type="bool" value="true"/>
     <property name="openLayer" value="loccpiccDoorOpen"/>
     <property name="openSound" value="./sounds/door_slide.wav"/>
-    <property name="soundRadius" type="int" value="320"/>
+    <property name="soundRadius" type="int" value="160"/>
    </properties>
    <point/>
   </object>
@@ -1970,7 +1970,7 @@
     <property name="door" type="bool" value="true"/>
     <property name="openLayer" value="seminarDoorOpen"/>
     <property name="openSound" value="./sounds/door_slide.wav"/>
-    <property name="soundRadius" type="int" value="320"/>
+    <property name="soundRadius" type="int" value="160"/>
    </properties>
    <point/>
   </object>
@@ -1982,7 +1982,7 @@
     <property name="door" type="bool" value="true"/>
     <property name="openLayer" value="ubuntuDoorOpen"/>
     <property name="openSound" value="./sounds/door_slide.wav"/>
-    <property name="soundRadius" type="int" value="320"/>
+    <property name="soundRadius" type="int" value="160"/>
    </properties>
    <point/>
   </object>

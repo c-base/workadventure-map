@@ -1198,7 +1198,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,408,408,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2120,7 +2120,7 @@
     <property name="door" type="bool" value="true"/>
     <property name="openLayer" value="goDoorOpen"/>
     <property name="openSound" value="./sounds/door_slide.wav"/>
-    <property name="soundRadius" type="int" value="320"/>
+    <property name="soundRadius" type="int" value="160"/>
    </properties>
    <point/>
   </object>
@@ -2132,7 +2132,7 @@
     <property name="door" type="bool" value="true"/>
     <property name="openLayer" value="ambientDoorOpen"/>
     <property name="openSound" value="sounds/door_slide.wav"/>
-    <property name="soundRadius" type="int" value="320"/>
+    <property name="soundRadius" type="int" value="160"/>
    </properties>
    <point/>
   </object>
@@ -2144,7 +2144,7 @@
     <property name="door" type="bool" value="true"/>
     <property name="openLayer" value="c3WocDoorOpen"/>
     <property name="openSound" value="./sounds/door_slide.wav"/>
-    <property name="soundRadius" type="int" value="320"/>
+    <property name="soundRadius" type="int" value="160"/>
    </properties>
    <point/>
   </object>
@@ -2157,7 +2157,7 @@
     <property name="openLayer" value="barDoorOpen"/>
     <property name="openSound" value="./sounds/door_slide.wav"/>
     <property name="persist" type="bool" value="true"/>
-    <property name="soundRadius" type="int" value="320"/>
+    <property name="soundRadius" type="int" value="160"/>
    </properties>
    <point/>
   </object>
@@ -2169,7 +2169,7 @@
     <property name="door" type="bool" value="true"/>
     <property name="openLayer" value="pentaDoorOpen"/>
     <property name="openSound" value="./sounds/door_slide.wav"/>
-    <property name="soundRadius" type="int" value="320"/>
+    <property name="soundRadius" type="int" value="160"/>
    </properties>
    <point/>
   </object>
@@ -2181,7 +2181,7 @@
     <property name="door" type="bool" value="true"/>
     <property name="openLayer" value="privacyDoorOpen"/>
     <property name="openSound" value="./sounds/door_slide.wav"/>
-    <property name="soundRadius" type="int" value="320"/>
+    <property name="soundRadius" type="int" value="160"/>
    </properties>
    <point/>
   </object>
