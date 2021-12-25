@@ -78,7 +78,7 @@
         var lastEvent = null;
         var now = new Date;
 
-        data.forEach( function(obj) {
+        data.forEach(function(obj) {
           var event = new MyEvent(obj);
 
           if(room == null || event.room == room) {
@@ -155,8 +155,17 @@
           if (err !== null) {
             document.getElementById("next-event").innerHTML = 'Something went wrong: ' + err;
           } else {
-            if(e = nextEvent(data, room))
-              document.getElementById("next-event").innerHTML = e.scheduleStart.getDate() + '.' + ( e.scheduleStart.getMonth()+1 ) + '. ' + formatTime(e.scheduleStart) + '-' + formatTime(e.scheduleEnd) + '<br>' + e.name + '<p>' + e.description + '</p>';
+            var currentEvent = {id: null};
+            var setNextEvent = function () {
+              if(e = nextEvent(data, room)) {
+                 if(e.id != currentEvent.id) {
+                  currentEvent = e;
+                  document.getElementById("next-event").innerHTML = e.scheduleStart.getDate() + '.' + ( e.scheduleStart.getMonth()+1 ) + '. ' + formatTime(e.scheduleStart) + '-' + formatTime(e.scheduleEnd) + '<br>' + e.name + '<p>' + e.description + '</p>';
+                }
+              }
+            }
+            setNextEvent();
+            setInterval(setNextEvent, 60000);
           }
         });
       }
