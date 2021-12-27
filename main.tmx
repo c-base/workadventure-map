@@ -2176,7 +2176,7 @@
  </layer>
  <layer id="32" name="exitWorld" width="42" height="96">
   <properties>
-   <property name="exitUrl" value="world://lobby/main.json"/>
+   <property name="exitUrl" value="world://lobby/chaoszone.json#start_c-base"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
