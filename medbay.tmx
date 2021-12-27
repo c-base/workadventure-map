@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="32" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="33" nextobjectid="5">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="32" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="33" nextobjectid="8">
  <editorsettings>
   <export target="medbay.json" format="json"/>
  </editorsettings>
@@ -408,9 +408,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="3" name="floorLayer"/>
- <objectgroup id="12" name="Objects">
-  <object id="1" name="cell1Door" type="variable" x="463.78" y="161.64">
+ <objectgroup id="3" name="floorLayer">
+  <object id="5" name="cell1Door" type="variable" x="464.635" y="169.016">
    <properties>
     <property name="closeLayer">cell1DoorClosed1
 cell1DoorClosed2</property>
@@ -424,7 +423,7 @@ cell1DoorClosed2</property>
    </properties>
    <point/>
   </object>
-  <object id="3" name="cell2Door" type="variable" x="271.04" y="160.892">
+  <object id="6" name="cell2Door" type="variable" x="271.895" y="168.268">
    <properties>
     <property name="closeLayer">cell2DoorClosed1
 cell2DoorClosed2</property>
@@ -438,7 +437,7 @@ cell2DoorClosed2</property>
    </properties>
    <point/>
   </object>
-  <object id="4" name="bedSheet" type="variable" x="656.85" y="170.252">
+  <object id="7" name="bedSheet" type="variable" x="657.705" y="177.628">
    <properties>
     <property name="closeLayer" value="bedSheetCovered"/>
     <property name="default" type="bool" value="false"/>
