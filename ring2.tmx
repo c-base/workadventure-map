@@ -507,7 +507,7 @@
  </layer>
  <layer id="51" name="seminarBBB" width="68" height="42">
   <properties>
-   <property name="bbbRoom" value="bbb://c-base/seminar"/>
+   <property name="bbbRoom" value="bbb://c-base/seminarraum"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
