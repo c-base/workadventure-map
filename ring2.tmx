@@ -1959,7 +1959,7 @@
   </object>
   <object id="8" name="mainstageVideo" type="website" x="929.789" y="214.625" width="252.014" height="142.068">
    <properties>
-    <property name="url" value="https://streaming.test.c3voc.de/rc3/embed/test/dash/native"/>
+    <property name="url" value="https://streaming.media.ccc.de/rc3/embed/cbase/hls/native/no-autoplay"/>
    </properties>
   </object>
   <object id="12" name="seminarDoor" type="variable" x="1853.93" y="672.797">
