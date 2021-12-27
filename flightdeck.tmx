@@ -216,8 +216,7 @@
  </layer>
  <layer id="35" name="exitVVM" width="64" height="42">
   <properties>
-   <property name="exitUrl">world://CCCHH/aumuehle/aumuehle.json#start_cbase
-</property>
+   <property name="exitUrl" value="world://CCCHH/aumuehle/aumuehle.json#start_cbase"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
