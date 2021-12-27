@@ -1906,7 +1906,7 @@
   </object>
   <object id="21" name="seminarNextEvent" type="website" x="1669.55" y="614.211" width="102.895" height="60.7389">
    <properties>
-    <property name="url" value="https://static.rc3.world/contrib/nextevent/nextevent.html?assembly=c-base&amp;room=ed1ce8e2-7a4b-421d-8f1d-22f5e9e62d94&amp;bg1=transparent&amp;bg2=transparent&amp;fg=AFAAA4"/>
+    <property name="url" value="https://static.rc3.world/contrib/nextevent/nextevent.html?assembly=c-base&amp;room= f047ee6b-e516-4c7c-b8f1-8669da7b7b77&amp;bg1=transparent&amp;bg2=transparent&amp;fg=AFAAA4"/>
    </properties>
   </object>
   <object id="1" name="mainstageDoor" type="variable" x="1056.02" y="734.7">
