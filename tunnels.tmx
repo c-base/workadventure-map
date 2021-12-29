@@ -865,7 +865,7 @@
 </data>
  </layer>
  <objectgroup id="4" name="floorLayer">
-  <object id="1" x="350.647" y="486.522" width="153.408" height="175.323">
+  <object id="1" x="521.02" y="448.589" width="18.3524" height="175.323">
    <properties>
     <property name="getBadge" value="W8Kr4LmyZJHqUEZCSpmWHIkDPw57mPMBcKJbetrlkVujpq9RBE"/>
    </properties>
