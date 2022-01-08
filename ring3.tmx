@@ -10,7 +10,7 @@
 Especially be aware if you find holes in the ground, as it may not be easy to get out again.</property>
   <property name="mapLink" value="https://c-base.org/"/>
   <property name="mapName" value="c-base Ring 3 - Arboretum"/>
-  <property name="script" value="https://static.rc3.world/scripts/c-base/bundle.js"/>
+  <property name="script" value="script.js"/>
  </properties>
  <tileset firstgid="1" source="Tiles/walls.tsx"/>
  <tileset firstgid="1025" source="Tiles/labels.tsx"/>

@@ -8,7 +8,7 @@
   <property name="mapDescription" value="It's dark ... so dark..."/>
   <property name="mapLink" value="https://c-base.org/"/>
   <property name="mapName" value="Darkroom"/>
-  <property name="script" value="https://static.rc3.world/scripts/c-base/bundle.js"/>
+  <property name="script" value="script.js"/>
  </properties>
  <tileset firstgid="1" source="Tiles/walls.tsx"/>
  <layer id="5" name="start" width="100" height="100">

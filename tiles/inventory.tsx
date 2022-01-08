@@ -571,6 +571,9 @@
   </properties>
  </tile>
  <tile id="385">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
   <animation>
    <frame tileid="385" duration="250"/>
    <frame tileid="387" duration="250"/>

@@ -8,7 +8,7 @@
   <property name="mapDescription" value="These tunnels below the arboretum seems to be dug by some aliens, that took over the station a long time ago. It appears to be safe in here, but some strange eggs were rumoured to be found in some chambers."/>
   <property name="mapLink" value="https://c-base.org/"/>
   <property name="mapName" value="Tunnels"/>
-  <property name="script" value="https://static.rc3.world/scripts/c-base/bundle.js"/>
+  <property name="script" value="script.js"/>
  </properties>
  <tileset firstgid="1" source="Tiles/nature.tsx"/>
  <tileset firstgid="257" source="Tiles/walls.tsx"/>

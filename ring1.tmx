@@ -8,7 +8,7 @@
   <property name="mapDescription" value="Most outer ring of the c-base space station.  It provides passage to the flightdeck and the medbay and - besides a bar - has some rooms, where friends and members of the space station present themselfes."/>
   <property name="mapLink" value="https://c-base.org/"/>
   <property name="mapName" value="c-base Ring 1"/>
-  <property name="script" value="https://static.rc3.world/scripts/c-base/bundle.js"/>
+  <property name="script" value="script.js"/>
  </properties>
  <tileset firstgid="1" source="Tiles/walls.tsx"/>
  <tileset firstgid="1025" source="Tiles/tile_tst_34frames_2048bei256.tsx"/>
