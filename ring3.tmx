@@ -126,9 +126,10 @@ Especially be aware if you find holes in the ground, as it may not be easy to ge
  </layer>
  <layer id="34" name="bierbankJitsi" width="68" height="46">
   <properties>
-   <property name="jitsiRoom" value="cbaseBierbank"/>
+   <property name="customJitsiRoom" value="bierbank"/>
    <property name="jitsiTrigger" value="onaction"/>
    <property name="jitsiTriggerMessage" value="Press SPACE to join conversation"/>
+   <property name="silent" type="bool" value="true"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -181,9 +182,10 @@ Especially be aware if you find holes in the ground, as it may not be easy to ge
  </layer>
  <layer id="37" name="fireplaceJitsi" width="68" height="46">
   <properties>
-   <property name="jitsiRoom" value="cbaseFireplace"/>
+   <property name="customJitsiRoom" value="fireplace"/>
    <property name="jitsiTrigger" value="onaction"/>
    <property name="jitsiTriggerMessage" value="Press SPACE to join the fireplace talk"/>
+   <property name="silent" type="bool" value="true"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

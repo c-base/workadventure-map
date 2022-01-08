@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>Jitsi rederictor</title>
+  <script src="https://play.workadventu.re/iframe_api.js"></script>
+</head>
+<body>
+  <script>
+    WA.onInit().then(function() {
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const room = urlParams.get('room');
+      const username = WA.player.name;
+      window.location.href = "https://jitsi.c-base.org/" + room + "#userInfo.displayName=\"" + username + "\"";
+    });
+  </script>
+</body>
+</html>

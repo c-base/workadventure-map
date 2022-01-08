@@ -120,9 +120,10 @@
  </layer>
  <layer id="7" name="jitsi" width="100" height="100">
   <properties>
-   <property name="jitsiRoom" value="darkroom"/>
+   <property name="customJitsiRoom" value="darkroom"/>
    <property name="jitsiTrigger" value="onaction"/>
    <property name="jitsiTriggerMessage" value="Press SPACE to join conversation"/>
+   <property name="silent" type="bool" value="true"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
