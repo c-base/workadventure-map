@@ -28,6 +28,11 @@
    <property name="collides" type="bool" value="true"/>
   </properties>
  </tile>
+ <tile id="52">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
  <tile id="53">
   <properties>
    <property name="collides" type="bool" value="true"/>
