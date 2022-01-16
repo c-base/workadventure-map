@@ -44,12 +44,29 @@ bootstrapExtra().catch((e) => console.error(e));
 //   })
 // })
 
+// JSON load helper
+function getJSON(url : string, callback : Function) {
+  let xhr : any = new XMLHttpRequest();
+  xhr.open('GET', url, true);
+  xhr.responseType = 'json';
+  xhr.onload = function() {
+    let status : any = xhr.status;
+    if (status === 200) {
+      callback(null, xhr.response);
+    } else {
+      callback(status, xhr.response);
+    }
+  };
+  xhr.send();
+}
+
+
 // Open c-base jitsi
 
 export async function initCustomJitsis(): Promise<void> {
   const layersMap = await getLayersMap();
-  let coWebsite: any = undefined;
-  let triggerMessage: any = undefined;
+  let coWebsite : any = undefined;
+  let triggerMessage : any = undefined;
 
   let openJitsi = async (roomName : string, userName : string) => {
     coWebsite = await WA.nav.openCoWebSite(
@@ -100,3 +117,17 @@ export async function initCustomJitsis(): Promise<void> {
 }
 
 initCustomJitsis();
+
+// show/hide birthday decorations
+
+WA.room.hideLayer('bday');
+WA.room.hideLayer('bday2');
+
+getJSON('https://rc3.c-base.org/bday.php', (status : any, response : any) => {
+  if(response.isBirthday) {
+    WA.room.showLayer('bday');
+    WA.room.showLayer('bday2');
+
+  }
+  console.log(status, response);
+});
